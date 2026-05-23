@@ -179,57 +179,44 @@ func (a *App) GetCatalogue() *catalogue.Snapshot {
 }
 
 func (a *App) LoadPackFromURL(rawURL string) (*skpack.Pack, error) {
-	a.writeLog("pack: load from url (%s)", strings.TrimSpace(rawURL))
-	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
-	defer cancel()
-	p, err := skpack.DecodePackFromURL(ctx, rawURL)
-	if err != nil {
-		a.writeLog("pack: load from url failed: %v", err)
-		return nil, err
+	rawURL = strings.TrimSpace(rawURL)
+	if rawURL == "" {
+		return nil, fmt.Errorf("bad url")
 	}
-	st := summarizePack(p)
-	a.writeLog("pack: load from url ok (rows=%d id=%d file=%d texturepack=%d unique_keys=%d dup_keys=%d)", st.Rows, st.IDRows, st.FileRows, st.TextureRows, st.UniqueKeys, st.DuplicateKeys)
-	return p, nil
-}
-
-func (a *App) LoadPackFromRevID(revID int64) (*skpack.Pack, error) {
-	if revID <= 0 {
-		return nil, fmt.Errorf("bad rev id")
-	}
-	a.writeLog("pack: load from oldid (%d)", revID)
+	a.writeLog("pack: load from url (%s)", rawURL)
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
 	defer cancel()
 
 	packsDir, err := paths.PacksDir()
 	if err != nil {
-		a.writeLog("pack: load from oldid failed: %v", err)
+		a.writeLog("pack: load from url failed: %v", err)
 		return nil, err
 	}
 
-	p, zipBytes, profileID, err := skpack.FetchAlterEgoRevPack(ctx, revID)
+	p, zipBytes, profileID, err := skpack.FetchPackFromURL(ctx, rawURL)
 	if err != nil {
-		a.writeLog("pack: load from oldid failed: %v", err)
+		a.writeLog("pack: load from url failed: %v", err)
 		return nil, err
 	}
 	if len(zipBytes) > 0 {
 		if err := a.ensurePackProfileSlot(packsDir, profileID); err != nil {
 			if errors.Is(err, errPackInstallCancelled) {
-				a.writeLog("pack: oldid mgpack install cancelled (profile conflict)")
+				a.writeLog("pack: url mgpack install cancelled (profile conflict)")
 				return nil, nil
 			}
-			a.writeLog("pack: load from oldid failed: %v", err)
+			a.writeLog("pack: load from url failed: %v", err)
 			return nil, err
 		}
 		p, err = skpack.InstallMgpackFromBytes(zipBytes, packsDir, true)
 		if err != nil {
-			a.writeLog("pack: load from oldid failed: %v", err)
+			a.writeLog("pack: load from url failed: %v", err)
 			return nil, err
 		}
-		a.writeLog("pack: oldid mgpack installed (profile=%q)", profileID)
+		a.writeLog("pack: url mgpack installed (profile=%q)", profileID)
 	}
 
 	st := summarizePack(p)
-	a.writeLog("pack: load from oldid ok (rows=%d id=%d file=%d texturepack=%d unique_keys=%d dup_keys=%d)", st.Rows, st.IDRows, st.FileRows, st.TextureRows, st.UniqueKeys, st.DuplicateKeys)
+	a.writeLog("pack: load from url ok (rows=%d id=%d file=%d texturepack=%d unique_keys=%d dup_keys=%d)", st.Rows, st.IDRows, st.FileRows, st.TextureRows, st.UniqueKeys, st.DuplicateKeys)
 	return p, nil
 }
 

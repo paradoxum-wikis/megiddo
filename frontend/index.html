@@ -78,12 +78,12 @@
 					</div>
 					<div class="import-row">
 						<input
-							id="revId"
-							type="number"
-							placeholder="wiki oldid"
-							aria-label="wiki oldid"
+							id="packUrl"
+							type="url"
+							placeholder="https://..."
+							aria-label="pack url"
 						/>
-						<button id="btnRev" type="button" class="secondary">
+						<button id="btnUrl" type="button" class="secondary">
 							import
 						</button>
 					</div>
@@ -154,14 +154,10 @@
 						>.
 					</li>
 					<li>
-						Upload your .mgpack, host the file, put
-						<code>&lt;!--https://your-link--&gt;</code> at the top
-						of the page.
+						Upload your .mgpack, host the file, and share the direct
+						download link.
 					</li>
-					<li>
-						Share the page’s <code>oldid=</code> from permanent
-						link; others paste it under import.
-					</li>
+					<li>Others paste that URL under import.</li>
 				</ol>
 			</div>
 		</section>
@@ -173,8 +169,8 @@
 			hidden
 		>
 			<p class="hint">
-				choose a character, set replacements, then stage to home. edit
-				a saved pack from home to load it here.
+				choose a character, set replacements, then stage to home. edit a
+				saved pack from home to load it here.
 			</p>
 
 			<div class="card browse-meta">

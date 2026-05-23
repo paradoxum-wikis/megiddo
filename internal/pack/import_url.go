@@ -23,12 +23,17 @@ var fetchClient = &http.Client{
 	},
 }
 
-func DecodePackFromURL(ctx context.Context, raw string) (*Pack, error) {
+func FetchPackFromURL(ctx context.Context, raw string) (pack *Pack, zipBytes []byte, profileID string, err error) {
 	body, err := DownloadBytesFromURL(ctx, raw)
 	if err != nil {
-		return nil, err
+		return nil, nil, "", err
 	}
-	return DecodePackLoose(body)
+	if IsZipBytes(body) {
+		profileID, _, err = PeekProfileIDFromBytes(body)
+		return nil, body, profileID, err
+	}
+	pack, err = DecodePackLoose(body)
+	return pack, nil, "", err
 }
 
 func DownloadBytesFromURL(ctx context.Context, raw string) ([]byte, error) {

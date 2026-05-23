@@ -15,7 +15,7 @@ import {
 } from "./notwailsjs/browse.js";
 import {
 	refreshInstalledPacks,
-	handleRevImport,
+	handleUrlImport,
 	handleFileImport,
 	handleExport,
 } from "./notwailsjs/pack.js";
@@ -69,7 +69,7 @@ async function init() {
 		);
 	});
 
-	getEl("btnRev")?.addEventListener("click", handleRevImport);
+	getEl("btnUrl")?.addEventListener("click", handleUrlImport);
 	getEl("btnFile")?.addEventListener("click", handleFileImport);
 
 	const btnMegiddo = getEl("btnMegiddo");

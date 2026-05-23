@@ -36,8 +36,6 @@ export function LoadInstalledMgpack(arg1:string):Promise<pack.Pack>;
 
 export function LoadMgpackFromFile():Promise<pack.Pack>;
 
-export function LoadPackFromRevID(arg1:number):Promise<pack.Pack>;
-
 export function LoadPackFromURL(arg1:string):Promise<pack.Pack>;
 
 export function MergeInstalledMgpacks(arg1:Array<string>):Promise<pack.Pack>;

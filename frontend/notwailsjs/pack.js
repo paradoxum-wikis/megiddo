@@ -9,7 +9,7 @@ import {
 	trySyncStagedFromPreview,
 } from "./state.js";
 import {
-	LoadPackFromRevID,
+	LoadPackFromURL,
 	LoadMgpackFromFile,
 	ListInstalledMgpacks,
 	ExportMgpack,
@@ -38,7 +38,7 @@ export async function refreshInstalledPacks() {
 	if (!list?.length) {
 		const li = document.createElement("li");
 		li.className = "muted";
-		li.textContent = "none yet - import a .mgpack or wiki oldid";
+		li.textContent = "none yet - import a .mgpack or url";
 		listEl.append(li);
 		syncMegiddoFromBackend().catch(console.error);
 		return;
@@ -109,11 +109,12 @@ export async function stageSelectedProfiles() {
 	}
 }
 
-export async function handleRevImport() {
-	const n = Number(getEl("revId")?.value || 0);
-	const p = await LoadPackFromRevID(n);
+export async function handleUrlImport() {
+	const url = getEl("packUrl")?.value?.trim() ?? "";
+	if (!url) return;
+	const p = await LoadPackFromURL(url);
 	if (p) {
-		setStaged(p, "wiki oldid");
+		setStaged(p, "url");
 		displayStaged();
 		await refreshInstalledPacks();
 	}

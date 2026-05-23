@@ -66,10 +66,6 @@ export function LoadMgpackFromFile() {
   return window['go']['main']['App']['LoadMgpackFromFile']();
 }
 
-export function LoadPackFromRevID(arg1) {
-  return window['go']['main']['App']['LoadPackFromRevID'](arg1);
-}
-
 export function LoadPackFromURL(arg1) {
   return window['go']['main']['App']['LoadPackFromURL'](arg1);
 }

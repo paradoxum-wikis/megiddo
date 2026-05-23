@@ -22,8 +22,8 @@ export function initElements() {
 	elements.metaAuthor = document.getElementById("metaAuthor");
 	elements.metaVersion = document.getElementById("metaVersion");
 	elements.metaDescription = document.getElementById("metaDescription");
-	elements.revId = document.getElementById("revId");
-	elements.btnRev = document.getElementById("btnRev");
+	elements.packUrl = document.getElementById("packUrl");
+	elements.btnUrl = document.getElementById("btnUrl");
 	elements.btnFile = document.getElementById("btnFile");
 	elements.btnExport = document.getElementById("btnExport");
 	elements.btnStageBrowse = document.getElementById("btnStageBrowse");
