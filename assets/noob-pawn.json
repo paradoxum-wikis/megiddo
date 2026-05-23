@@ -1,0 +1,167 @@
+{
+	"character": "Noob",
+	"description": "Noob Pawn model from Workspace.Characters.Models dump.",
+	"model": "Pawn",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Armor Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Armor",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 98713869931125
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Armor TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Armor",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 133189354194769
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 114461797601486
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Body TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Body",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 118923321094077
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Can Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Can",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 72904145421327
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Can TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Can",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 121783730634645
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Slingshot.Rock",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 111864778612438
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Pawn.Slingshot.Rock.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 78915563570104
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Pawn.Slingshot.Rock.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 88318045472816
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Pawn.Slingshot.Rock.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 112085901522112
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Pawn.Slingshot.Rock.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 89191388977636
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Slingshot.Singshot",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 138994073139701
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Slingshot TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Pawn.Slingshot.Singshot",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 75884465187915
+		}
+	]
+}

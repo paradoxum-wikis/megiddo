@@ -1,0 +1,426 @@
+{
+	"character": "Noob",
+	"description": "Noob Clown model from Workspace.Characters.Models dump.",
+	"model": "Clown",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 98168753353975
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Body ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 134334401654569
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Body MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Body.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 94702750412689
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Body NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Body.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 107169610038161
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Body RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Body.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 106780084142021
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Can Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Can",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 72904145421327
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Can TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Can",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 121783730634645
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 74274199450812
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Clothes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 86486709763700
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Clothes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 104462332416483
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Clothes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 86911100166462
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Clothes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 105310598459809
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 113803273189226
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 75963825002911
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 140202552553781
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 111283308809500
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Hat Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Hat",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 105148675246777
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Hat.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 86486709763700
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Hat.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 104462332416483
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Hat.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 86911100166462
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Hat.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 105310598459809
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 125045641598189
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Head.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 134334401654569
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Head.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 94702750412689
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Head.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 107169610038161
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Head.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 106780084142021
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Slingshot.Singshot",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 138994073139701
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Slingshot TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Slingshot.Singshot",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 75884465187915
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Clown.Slingshot.rock",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 111864778612438
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Slingshot.rock.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 78915563570104
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Slingshot.rock.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 88318045472816
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Slingshot.rock.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 112085901522112
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Clown.Slingshot.rock.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 89191388977636
+		}
+	]
+}

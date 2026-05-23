@@ -1,0 +1,119 @@
+{
+	"format_version": 1,
+	"name": "ALTER EGO catalogue",
+	"description": "Character catalogues live alongside this index under assets/.",
+	"characters": [
+		{
+			"id": "caducus",
+			"file": "caducus.json"
+		},
+		{
+			"id": "caducus-nightmare",
+			"file": "caducus-nightmare.json"
+		},
+		{
+			"id": "commander",
+			"file": "commander.json"
+		},
+		{
+			"id": "commander-hoss",
+			"file": "commander-hoss.json"
+		},
+		{
+			"id": "commander-madcow",
+			"file": "commander-madcow.json"
+		},
+		{
+			"id": "commander-maid",
+			"file": "commander-maid.json"
+		},
+		{
+			"id": "commander-retrowave",
+			"file": "commander-retrowave.json"
+		},
+		{
+			"id": "husk",
+			"file": "husk.json"
+		},
+		{
+			"id": "husk-johndoe",
+			"file": "husk-johndoe.json"
+		},
+		{
+			"id": "husk-woodsman",
+			"file": "husk-woodsman.json"
+		},
+		{
+			"id": "noob",
+			"file": "noob.json"
+		},
+		{
+			"id": "noob-alphatester",
+			"file": "noob-alphatester.json"
+		},
+		{
+			"id": "noob-clown",
+			"file": "noob-clown.json"
+		},
+		{
+			"id": "noob-earlysupporter",
+			"file": "noob-earlysupporter.json"
+		},
+		{
+			"id": "noob-lastbacon",
+			"file": "noob-lastbacon.json"
+		},
+		{
+			"id": "noob-melonshark",
+			"file": "noob-melonshark.json"
+		},
+		{
+			"id": "noob-pawn",
+			"file": "noob-pawn.json"
+		},
+		{
+			"id": "patientzero",
+			"file": "patientzero.json"
+		},
+		{
+			"id": "patientzero-alien",
+			"file": "patientzero-alien.json"
+		},
+		{
+			"id": "patientzero-analog",
+			"file": "patientzero-analog.json"
+		},
+		{
+			"id": "patientzero-drnoodle",
+			"file": "patientzero-drnoodle.json"
+		},
+		{
+			"id": "toothy",
+			"file": "toothy.json"
+		},
+		{
+			"id": "toothy-orc",
+			"file": "toothy-orc.json"
+		},
+		{
+			"id": "toothy-stickmaster",
+			"file": "toothy-stickmaster.json"
+		},
+		{
+			"id": "warrior",
+			"file": "warrior.json"
+		},
+		{
+			"id": "warrior-1x1x1x1",
+			"file": "warrior-1x1x1x1.json"
+		},
+		{
+			"id": "warrior-alphadoom",
+			"file": "warrior-alphadoom.json"
+		},
+		{
+			"id": "warrior-solo",
+			"file": "warrior-solo.json"
+		}
+	]
+}

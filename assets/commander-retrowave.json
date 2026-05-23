@@ -1,0 +1,403 @@
+{
+	"character": "Commander",
+	"description": "Commander Retrowave model from Workspace.Characters.Models dump.",
+	"model": "Retrowave",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 119781327249924
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Body ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 88349546600282
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Body MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Body.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 113592651328241
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Body NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Body.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 122585622080683
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Body RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Body.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 114523270645333
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 112258391359807
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Clothes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 111135207271692
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Clothes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 122731257651361
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Clothes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 137059975991053
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Clothes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 138654488494112
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 117323478660332
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 124918926704556
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 115006120296113
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 100744526883659
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Face.Faces.Scream",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 73670485657060
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 77797399555210
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Head ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Head.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 111135207271692
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Head MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Head.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 122731257651361
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Head NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Head.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 137059975991053
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Head RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Head.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 138654488494112
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Radio Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Radio.Walkie",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 97684553044759
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Radio.Walkie.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 122211365115738
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Radio.Walkie.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 132981751075857
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Radio.Walkie.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 121863146088597
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Radio.Walkie.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 100841256777915
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Radio Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Radio.Walkie_Screen",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 125782973619761
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Screen Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Retrowave.Screen",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 109352120003472
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Screen ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Screen.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 88349546600282
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Screen MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Screen.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 113592651328241
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Screen NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Screen.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 122585622080683
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Screen RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Retrowave.Screen.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 114523270645333
+		}
+	]
+}

@@ -1,0 +1,211 @@
+{
+	"character": "Husk",
+	"description": "Husk Default model from Workspace.Characters.Models dump.",
+	"model": "Default",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Camera_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Default.Camera_",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 129619390200659
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Eyes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Default.Eyes",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 100881423562121
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Eyes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Eyes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 86712803148008
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Eyes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Eyes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 102310764726068
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Eyes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Eyes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 137544418423550
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Eyes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Eyes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 109306910469365
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Outfit Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Default.Outfit",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 85850109886573
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Outfit ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Outfit.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 103983551944315
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Outfit MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Outfit.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 75022465522970
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Outfit NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Outfit.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 109698269653720
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Outfit RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Outfit.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 96956413574156
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Skin Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Default.Skin",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 134060788395809
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Skin ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Skin.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 86712803148008
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Skin MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Skin.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 102310764726068
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Skin NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Skin.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 137544418423550
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Skin RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Default.Skin.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 109306910469365
+		}
+	]
+}

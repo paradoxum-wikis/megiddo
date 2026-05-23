@@ -1,0 +1,502 @@
+{
+	"character": "Warrior",
+	"description": "Warrior Default model from Workspace.Characters.Models dump.",
+	"model": "Default",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "ArmStraps_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.ArmStraps_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 89959842326278
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "ArmStraps_ ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.ArmStraps_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133607292924755
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "ArmStraps_ MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.ArmStraps_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 89088387191567
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "ArmStraps_ NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.ArmStraps_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 92511668548392
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "ArmStraps_ RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.ArmStraps_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 78927708784151
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 78483143246576
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 89753213275363
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 135732895369686
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 111845989691840
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Head_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Head_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 89438281847984
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Helmet_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Helmet_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 85513378085883
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Helmet_ ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Helmet_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133607292924755
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Helmet_ MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Helmet_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 89088387191567
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Helmet_ NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Helmet_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 92511668548392
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Helmet_ RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Helmet_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 78927708784151
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Left_Arm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Left_Arm",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 90149545209913
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Outfit Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Outfit",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 135627986025309
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Outfit ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Outfit.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133607292924755
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Outfit MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Outfit.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 89088387191567
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Outfit NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Outfit.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 92511668548392
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Outfit RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Outfit.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 78927708784151
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "PantLeft_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.PantLeft_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 135750544534984
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantLeft_ ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantLeft_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133607292924755
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantLeft_ MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantLeft_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 89088387191567
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantLeft_ NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantLeft_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 92511668548392
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantLeft_ RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantLeft_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 78927708784151
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "PantRight_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.PantRight_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 76802958753597
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantRight_ ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantRight_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133607292924755
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantRight_ MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantRight_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 89088387191567
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantRight_ NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantRight_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 92511668548392
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "PantRight_ RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.PantRight_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 78927708784151
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Right_Arm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Right_Arm",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 76644198654445
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Shield Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Shield",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 80773783461624
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Shield ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Shield.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133607292924755
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Shield MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Shield.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 89088387191567
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Shield NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Shield.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 92511668548392
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Shield RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Default.Shield.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 78927708784151
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Sword Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Sword.Sword",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 76479624068100
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Torso_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Default.Torso_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 119997625837792
+		}
+	]
+}

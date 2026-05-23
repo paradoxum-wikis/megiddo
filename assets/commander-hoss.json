@@ -1,0 +1,335 @@
+{
+	"character": "Commander",
+	"description": "Commander Hoss model from Workspace.Characters.Models dump.",
+	"model": "Hoss",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 128026709425461
+		},
+		{
+			"asset_type": "texture",
+			"character": "Commander",
+			"label": "Clothes TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Clothes",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 114806599528798
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Clothes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 114806599528798
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Clothes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 87659233511929
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Clothes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 71165432923360
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Clothes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Clothes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 128468772379028
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 75903362522361
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 128762951011358
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 84542504741026
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 135672123398125
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Face.Faces.Scream",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 77514893941148
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Hat Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Hat",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 95675491792561
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Hat ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Hat.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 114806599528798
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Hat MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Hat.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 87659233511929
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Hat NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Hat.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 71165432923360
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Hat RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Hat.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 128468772379028
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 120518176764690
+		},
+		{
+			"asset_type": "texture",
+			"character": "Commander",
+			"label": "Head TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Head",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103224835316322
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Radio Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Radio.Walkie",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 105431367334008
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Radio.Walkie.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 103288101848137
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Radio.Walkie.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 115175893090672
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Radio.Walkie.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 89209854455534
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Hoss.Radio.Walkie.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 128657641777466
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Radio Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.Radio.Walkie_Screen",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 108902042001537
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 104002460059367
+		},
+		{
+			"asset_type": "texture",
+			"character": "Commander",
+			"label": "body TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Hoss.body",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103224835316322
+		}
+	]
+}

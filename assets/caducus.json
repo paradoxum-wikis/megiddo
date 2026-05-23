@@ -1,0 +1,415 @@
+{
+	"character": "Caducus",
+	"description": "Caducus Default model from rbxmx export.",
+	"model": "Default",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Default.Body",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 139700074774589
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body ColorMap",
+			"notes": "Same ColorMap sub-asset on Body and Feathers (Studio dump). Use one pack row per replacement.",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Default.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 129324924637058
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body MetalnessMap",
+			"notes": "Shared MetalnessMap sub-asset on Body and Feathers.",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Default.Body.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 120904672367138
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body NormalMap",
+			"notes": "Shared NormalMap sub-asset on Body and Feathers.",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Default.Body.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 119555780232024
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Cube Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Default.Cube",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 105370625351081
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Feathers Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Default.Feathers",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 88797787020628
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Feathers ColorMap",
+			"notes": "Same ColorMap sub-asset on Body and Feathers (Studio dump). Use one pack row per replacement.",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Default.Feathers.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 129324924637058
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Feathers MetalnessMap",
+			"notes": "Shared MetalnessMap sub-asset on Body and Feathers.",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Default.Feathers.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 120904672367138
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Feathers NormalMap",
+			"notes": "Shared NormalMap sub-asset on Body and Feathers.",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Default.Feathers.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 119555780232024
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Halo Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Default.Halo",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 99546065910206
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DARK_DESCENT_ATTACK",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DARK_DESCENT_ATTACK",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 132399622532032
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DARK_DESCENT_ATTACK_LOOP",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DARK_DESCENT_ATTACK_LOOP",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 73460834144081
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DARK_DESCENT_INTRO",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DARK_DESCENT_INTRO",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 74352384887058
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DARK_DESCENT_LOOP",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DARK_DESCENT_LOOP",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 124639125191831
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DARK_DESCENT_MISS",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DARK_DESCENT_MISS",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 116886897343802
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DASH",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DASH",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 139456319570589
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation DASH_WINDUP",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.DASH_WINDUP",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 110117635542912
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation FINISHER",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.FINISHER",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 136089379497597
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation FINISHER_VICTIM",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.FINISHER_VICTIM",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 138410354909497
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation FOUL_BREATH_INTRO",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.FOUL_BREATH_INTRO",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 107961551807010
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation FOUL_BREATH_LOOP",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.FOUL_BREATH_LOOP",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 134885613927899
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation FOUL_BREATH_OUTRO",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.FOUL_BREATH_OUTRO",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 96993783858956
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation Idle",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.Idle",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 128096168159310
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation KillerTransform",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.KillerTransform",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 117721691457725
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation RunForward",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.RunForward",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 84681710605023
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation SWIPE",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.SWIPE",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 119773971274921
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation StunIntro",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.StunIntro",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 80786131769092
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation StunLoop",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.StunLoop",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 126617173867657
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation StunOutro",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.StunOutro",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 92426366988562
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation SurvivorTransform",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.SurvivorTransform",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 126237577978347
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation ULTIMATE_EXECUTE_CASTER",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.ULTIMATE_EXECUTE_CASTER",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 119761248551605
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation ULTIMATE_EXECUTE_VICTIM",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.ULTIMATE_EXECUTE_VICTIM",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 119391881534926
+		},
+		{
+			"asset_type": "animation",
+			"character": "Caducus",
+			"label": "Animation WalkForward",
+			"rbxm_props": {
+				"class_name": "Animation",
+				"instance_path": "ReplicatedStorage.Assets.Animations.Killers.caducus.default.WalkForward",
+				"prop": "AnimationId"
+			},
+			"role": "alter_ego",
+			"target_id": 129014437892680
+		}
+	]
+}

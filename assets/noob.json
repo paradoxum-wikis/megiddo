@@ -1,0 +1,378 @@
+{
+	"character": "Noob",
+	"description": "Noob Default model from Workspace.Characters.Models dump.",
+	"model": "Default",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Can Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Can",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 72904145421327
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Can TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Can",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 107660692880497
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 136486329129716
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 121749678911126
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 134277258068208
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 100500969500843
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Head_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Head_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 79522110811789
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Head_ TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Head_",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103882896159147
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Left_Arm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Left_Arm",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 111561793216622
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Left_Arm TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Left_Arm",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103882896159147
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Left_Leg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Left_Leg",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 70870070188270
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Left_Leg TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Left_Leg",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103882896159147
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Outfit Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Outfit",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 99032646876111
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Outfit ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Outfit.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 89339949075447
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Outfit MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Outfit.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 129933479344990
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Outfit NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Outfit.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 80629906171230
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Outfit RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Outfit.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 120003361241380
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Right_Arm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Right_Arm",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 90252104070600
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Right_Arm TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Right_Arm",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103882896159147
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Right_Leg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Right_Leg",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 93349274512924
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Right_Leg TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Right_Leg",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103882896159147
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Slingshot.Singshot",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 138994073139701
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Slingshot TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Slingshot.Singshot",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 75884465187915
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Slingshot.rock",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 115804444647346
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Slingshot.rock.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 115685694077137
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Slingshot.rock.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 128564957897175
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Slingshot.rock.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 102731810548686
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.Default.Slingshot.rock.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 131869291400828
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Torso_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Torso_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 138704078128975
+		},
+		{
+			"asset_type": "texture",
+			"character": "Noob",
+			"label": "Torso_ TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.Default.Torso_",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 103882896159147
+		}
+	]
+}

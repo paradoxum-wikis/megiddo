@@ -1,0 +1,442 @@
+{
+	"character": "Noob",
+	"description": "Noob MelonShark model from Workspace.Characters.Models dump.",
+	"model": "MelonShark",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Can Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Can",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 104071494661894
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Can ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Can.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 73557255893803
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Can MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Can.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 110606556023900
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Can NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Can.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 124197329816840
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Can RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Can.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 130712948673025
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 72084016832487
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Clothes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 86601283251814
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Clothes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 110504981172198
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Clothes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 76860965730345
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Clothes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Clothes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 110374108997690
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 98413996074856
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 70525166362889
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 79483552651063
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 139345704693769
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Hat Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Hat",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 128130553478482
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Hat.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 86601283251814
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Hat.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 110504981172198
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Hat.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 76860965730345
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Hat RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Hat.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 110374108997690
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 113548328485685
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Head.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 86601283251814
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Head.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 110504981172198
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Head.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 76860965730345
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Head RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Head.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 110374108997690
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Slingshot.Seed",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 139333508556439
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.Seed.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 98323627131560
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.Seed.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 137021768019191
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.Seed.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 125236929594151
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.Seed.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 119465749116635
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Noob",
+			"label": "Slingshot Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Noob.MelonShark.Slingshot.SlingshotMelon",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 72166395778156
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.SlingshotMelon.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 70931998769162
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.SlingshotMelon.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 88151126344085
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.SlingshotMelon.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 73623566643339
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Noob",
+			"label": "Slingshot RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Noob.MelonShark.Slingshot.SlingshotMelon.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 139909061639611
+		}
+	]
+}

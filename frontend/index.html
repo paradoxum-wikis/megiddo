@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Megiddo</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="app-head">
+			<div>
+				<h1>Megiddo</h1>
+				<p id="tagline">ALTER EGO skin swaps</p>
+			</div>
+			<div class="pill-row" aria-live="polite">
+				<span id="chipElevated" class="pill muted"
+					>admin elevated - …</span
+				>
+				<span id="chipPatch" class="pill muted">roblox patch - …</span>
+				<span id="chipLifecycle" class="pill muted">proxy - …</span>
+			</div>
+		</header>
+
+		<nav class="tabs" role="tablist" aria-label="main">
+			<button
+				type="button"
+				class="tab"
+				role="tab"
+				aria-selected="true"
+				data-tab="home"
+			>
+				home
+			</button>
+			<button
+				type="button"
+				class="tab"
+				role="tab"
+				aria-selected="false"
+				data-tab="browse"
+			>
+				create
+			</button>
+			<button
+				type="button"
+				class="tab"
+				role="tab"
+				aria-selected="false"
+				data-tab="logs"
+			>
+				logs
+			</button>
+		</nav>
+
+		<section id="panel-home" class="panel tabpanel" role="tabpanel">
+			<p id="packHint" class="hint">
+				import a pack or check saved packs, then enable Megiddo.
+			</p>
+
+			<div class="card megiddo-power">
+				<button
+					id="btnMegiddo"
+					type="button"
+					class="megiddo-toggle"
+					disabled
+				>
+					enable megiddo
+				</button>
+				<p id="megiddoHelp" class="mini muted">off</p>
+			</div>
+
+			<div class="grid home-grid">
+				<div class="card">
+					<h2>import</h2>
+					<div class="import-row">
+						<button id="btnFile" type="button">
+							open .mgpack…
+						</button>
+					</div>
+					<div class="import-row">
+						<input
+							id="revId"
+							type="number"
+							placeholder="wiki oldid"
+							aria-label="wiki oldid"
+						/>
+						<button id="btnRev" type="button" class="secondary">
+							import
+						</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<h2>saved packs</h2>
+					<p class="mini muted">
+						check packs to merge (later wins on duplicates), then
+						enable megiddo.
+					</p>
+					<ul id="installedPacks" class="installed-packs"></ul>
+				</div>
+
+				<div class="card">
+					<h2>first-time setup</h2>
+					<p class="mini">
+						patch roblox so Megiddo can intercept traffic. restart
+						the game after patching.
+					</p>
+					<button id="btnPatchCerts" type="button">
+						patch roblox
+					</button>
+					<div class="browse-actions">
+						<button
+							id="btnUnpatchCerts"
+							type="button"
+							class="secondary"
+						>
+							remove patch
+						</button>
+						<button
+							id="btnClearRbxCache"
+							type="button"
+							class="secondary"
+						>
+							clear game cache
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="card full-ish pack-json-card">
+				<div class="pack-json-head">
+					<h2>pack json</h2>
+					<button id="btnExport" type="button" class="secondary">
+						export .mgpack…
+					</button>
+				</div>
+				<p class="mini muted">
+					staged pack from import or create. check saved packs to
+					preview merged json here.
+				</p>
+				<textarea id="preview" spellcheck="false"></textarea>
+				<p id="previewErr" class="preview-err hidden"></p>
+			</div>
+
+			<div id="wikiGuide" class="card full-ish wiki-guide">
+				<h2>share on wiki</h2>
+				<ol>
+					<li>
+						Create a Workshop page on
+						<a
+							href="https://alter-ego.fandom.com"
+							target="_blank"
+							rel="noopener"
+							>alter-ego.fandom.com</a
+						>.
+					</li>
+					<li>
+						Upload your .mgpack, host the file, put
+						<code>&lt;!--https://your-link--&gt;</code> at the top
+						of the page.
+					</li>
+					<li>
+						Share the page’s <code>oldid=</code> from permanent
+						link; others paste it under import.
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<section
+			id="panel-browse"
+			class="panel tabpanel hidden"
+			role="tabpanel"
+			hidden
+		>
+			<p class="hint">
+				choose a character, set replacements, then stage to home. edit
+				a saved pack from home to load it here.
+			</p>
+
+			<div class="card browse-meta">
+				<h2>pack info</h2>
+				<div class="meta-grid">
+					<label
+						>name
+						<input id="metaName" type="text" placeholder="Big Man"
+					/></label>
+					<label
+						>author
+						<input
+							id="metaAuthor"
+							type="text"
+							placeholder="wiki_username"
+					/></label>
+					<label
+						>version
+						<input id="metaVersion" type="text" placeholder="1.0.0"
+					/></label>
+				</div>
+				<label
+					>description
+					<input
+						id="metaDescription"
+						type="text"
+						placeholder="short description"
+				/></label>
+			</div>
+
+			<div class="card browse-picker">
+				<h2>picker</h2>
+				<div class="picker-group">
+					<span class="picker-label">role</span>
+					<div id="browseRoleButtons" class="browse-nav-row"></div>
+				</div>
+				<div class="picker-group picker-character">
+					<span class="picker-label">character</span>
+					<div
+						id="browseCharacterButtons"
+						class="browse-nav-row"
+					></div>
+					<span class="picker-label">skin</span>
+					<div
+						id="browseSkinButtons"
+						class="browse-nav-row browse-skin-row"
+					></div>
+				</div>
+				<p id="browseNavHint" class="mini muted"></p>
+			</div>
+
+			<div class="browse-actions">
+				<button id="btnStageBrowse" type="button">stage to home</button>
+				<button id="btnBrowseReset" type="button" class="secondary">
+					clear inputs
+				</button>
+			</div>
+			<div class="table-wrap">
+				<table class="browse-table">
+					<thead>
+						<tr>
+							<th>asset</th>
+							<th>type</th>
+							<th>slot</th>
+							<th>target</th>
+							<th>replace with</th>
+						</tr>
+					</thead>
+					<tbody id="browseBody"></tbody>
+				</table>
+			</div>
+		</section>
+
+		<section
+			id="panel-logs"
+			class="panel tabpanel hidden"
+			role="tabpanel"
+			hidden
+		>
+			<div class="browse-actions">
+				<button id="btnLogsCopy" type="button">copy</button>
+				<button id="btnLogsRefresh" type="button" class="secondary">
+					refresh
+				</button>
+			</div>
+			<pre id="logFull" spellcheck="false"></pre>
+		</section>
+
+		<script type="module" src="main.js"></script>
+	</body>
+</html>

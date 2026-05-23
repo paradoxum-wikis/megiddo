@@ -1,0 +1,143 @@
+{
+	"character": "Warrior",
+	"description": "Warrior Solo model from Workspace.Characters.Models dump.",
+	"model": "Solo",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 102538722225034
+		},
+		{
+			"asset_type": "texture",
+			"character": "Warrior",
+			"label": "Body TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Body",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 117772436619939
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 136047041322740
+		},
+		{
+			"asset_type": "texture",
+			"character": "Warrior",
+			"label": "Clothes TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Clothes",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 116823887149943
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 96543668298930
+		},
+		{
+			"asset_type": "texture",
+			"character": "Warrior",
+			"label": "Head TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Head",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 116823887149943
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Warrior",
+			"label": "Sword Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Warrior.Solo.Sword.Sword",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 84277226532903
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Sword ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Solo.Sword.Sword.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 116823887149943
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Sword MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Solo.Sword.Sword.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 117058433202971
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Sword NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Solo.Sword.Sword.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 132912137365191
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Warrior",
+			"label": "Sword RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Warrior.Solo.Sword.Sword.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 137659330267998
+		}
+	]
+}

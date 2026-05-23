@@ -1,0 +1,326 @@
+{
+	"character": "PatientZero",
+	"description": "PatientZero DrNoodle model from Workspace.Characters.Models dump.",
+	"model": "DrNoodle",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.DrNoodle.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 71603477443697
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Body ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 105259450879312
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Body RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Body.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 101296180375023
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.DrNoodle.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 126640455977925
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Clothes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Clothes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 115859902977742
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Clothes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Clothes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 86087251218518
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Clothes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Clothes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 73826162920551
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Clothes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Clothes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 80725528024927
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.DrNoodle.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 76411725706375
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 85252159162436
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 72575987916929
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 129614413541749
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Hat Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.DrNoodle.Hat",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 128832344709188
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Hat ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Hat.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 115859902977742
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Hat MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Hat.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 86087251218518
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Hat NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Hat.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 73826162920551
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Hat RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Hat.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 80725528024927
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.DrNoodle.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 100028640012199
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Head ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Head.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 105259450879312
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Head RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.Head.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 101296180375023
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "VitalMins Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.DrNoodle.VitalMins",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 134319957221366
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.VitalMins.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 135170545780391
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.VitalMins.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 110564689074791
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.VitalMins.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 93544835293793
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.DrNoodle.VitalMins.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 90594387534466
+		}
+	]
+}

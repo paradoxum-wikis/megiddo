@@ -1,0 +1,147 @@
+{
+	"character": "Caducus",
+	"description": "Caducus Nightmare model from Workspace.Characters.Models dump.",
+	"model": "Nightmare",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Nightmare.Body",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 127661319862542
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 106377467269992
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Body.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 121362084073662
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Body.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 136646880188972
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Body RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Body.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 123256037684119
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Cube Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Nightmare.Cube",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 77979383713587
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Caducus",
+			"label": "Wing Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Caducus.Nightmare.Wing",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 74562600156883
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Wing ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Wing.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 132070546342489
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Wing MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Wing.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 3,
+			"target_id": 89751701100211
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Wing NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Wing.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 106086343529963
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Caducus",
+			"label": "Wing RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Caducus.Nightmare.Wing.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 132277837958695
+		}
+	]
+}

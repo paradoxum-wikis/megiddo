@@ -1,0 +1,262 @@
+{
+	"character": "PatientZero",
+	"description": "PatientZero Analog model from Workspace.Characters.Models dump.",
+	"model": "Analog",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.Analog.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 80809575242609
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Body ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 79385386639257
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Body MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Body.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 71051369069370
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Body NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Body.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 112136760981926
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Body RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Body.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 128557921552289
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.Analog.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 116855894611076
+		},
+		{
+			"asset_type": "texture",
+			"character": "PatientZero",
+			"label": "Face TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.Analog.Face",
+				"prop": "TextureID"
+			},
+			"role": "victim",
+			"target_id": 0
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 86210424102970
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 133395978562988
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 77396589472739
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "FakeHead Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.Analog.FakeHead",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 89622570365067
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "FakeHead ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.FakeHead.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 79385386639257
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "FakeHead MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.FakeHead.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 71051369069370
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "FakeHead NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.FakeHead.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 112136760981926
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "FakeHead RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.FakeHead.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 128557921552289
+		},
+		{
+			"asset_type": "mesh",
+			"character": "PatientZero",
+			"label": "VitalMins Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "PatientZero.Analog.VitalMins",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 112846140455347
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.VitalMins.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 101222596669729
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.VitalMins.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 116754419030216
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.VitalMins.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 126182731428218
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "PatientZero",
+			"label": "VitalMins RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "PatientZero.Analog.VitalMins.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 117460565261509
+		}
+	]
+}

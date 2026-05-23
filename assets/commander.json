@@ -1,0 +1,270 @@
+{
+	"character": "Commander",
+	"description": "Commander Default model from Workspace.Characters.Models dump.",
+	"model": "Default",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 132059746721921
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 128762951011358
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 84542504741026
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Face.Faces.Injured",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 135672123398125
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Face.Faces.Scream",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 77514893941148
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Head_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Head_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 140468806394679
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Left_Arm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Left_Arm",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 89079170793031
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Left_Leg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Left_Leg",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 105299541344883
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Radio Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Radio.Walkie",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 113854693453203
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Radio.Walkie.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 107730138277619
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Radio.Walkie.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 95579861678240
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Radio RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.Radio.Walkie.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 115000934452352
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Radio Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Radio.Walkie_Screen",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 106471298481561
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Right_Arm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Right_Arm",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 80369442135364
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Right_Leg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Right_Leg",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 138648218764445
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "SleeveLeft_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.SleeveLeft_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 114131025468155
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "SleeveLeft_ ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.SleeveLeft_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 72992226529259
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "SleeveLeft_ MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.SleeveLeft_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 78800268220282
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "SleeveLeft_ NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.SleeveLeft_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 78222718975548
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "SleeveLeft_ RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.Default.SleeveLeft_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 73599582814170
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Torso_ Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.Default.Torso_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 86704131842241
+		}
+	]
+}

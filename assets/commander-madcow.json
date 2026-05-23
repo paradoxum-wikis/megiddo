@@ -1,0 +1,95 @@
+{
+	"character": "Commander",
+	"description": "Commander MadCow model from Workspace dump.",
+	"model": "MadCow",
+	"replacements_catalogue": [
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Main ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.MadCow.Main.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 81887643609756
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Main Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.MadCow.Main",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 85330131970027
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Main MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.MadCow.Main.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 111787334414868
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Main NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.MadCow.Main.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 138803411804588
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Commander",
+			"label": "Main RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Commander.MadCow.Main.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 93878385294623
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Walkie Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.MadCow.Radio.Walkie",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 75030764565472
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Commander",
+			"label": "Walkie_Screen Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Commander.MadCow.Radio.Walkie_Screen",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 140376968749019
+		}
+	]
+}

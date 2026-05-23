@@ -1,0 +1,313 @@
+{
+	"character": "Husk",
+	"description": "Husk Woodsman model from Workspace.Characters.Models dump.",
+	"model": "Woodsman",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Woodsman.Head",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 92630866157000
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Head ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.Head.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 116607796238650
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Head NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.Head.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 116681051317328
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Head RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.Head.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 114749283203942
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "LeftArm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Woodsman.LeftArm",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 89726943826432
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "LeftArm ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.LeftArm.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 116607796238650
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "LeftArm NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.LeftArm.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 116681051317328
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "LeftArm RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.LeftArm.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 114749283203942
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "LeftLeg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Woodsman.LeftLeg",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 93732081706358
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "LeftLeg ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.LeftLeg.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 116607796238650
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "LeftLeg NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.LeftLeg.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 116681051317328
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "LeftLeg RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.LeftLeg.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 114749283203942
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "RightArm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Woodsman.RightArm",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 124575272020608
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "RightArm ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.RightArm.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 116607796238650
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "RightArm NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.RightArm.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 116681051317328
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "RightArm RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.RightArm.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 114749283203942
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "RightLeg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Woodsman.RightLeg",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 97240484716688
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "RightLeg ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.RightLeg.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 116607796238650
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "RightLeg NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.RightLeg.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 116681051317328
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "RightLeg RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.RightLeg.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 114749283203942
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Torso Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.Woodsman.Torso",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 75191867362918
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Torso ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.Torso.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "alter_ego",
+			"slot": 0,
+			"target_id": 116607796238650
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Torso NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.Torso.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "alter_ego",
+			"slot": 1,
+			"target_id": 116681051317328
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Husk",
+			"label": "Torso RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Husk.Woodsman.Torso.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "alter_ego",
+			"slot": 2,
+			"target_id": 114749283203942
+		}
+	]
+}

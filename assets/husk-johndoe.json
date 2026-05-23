@@ -1,0 +1,151 @@
+{
+	"character": "Husk",
+	"description": "Husk JohnDoe model from Workspace.Characters.Models dump.",
+	"model": "JohnDoe",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.Head",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 135424566968840
+		},
+		{
+			"asset_type": "texture",
+			"character": "Husk",
+			"label": "Head TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.Head",
+				"prop": "TextureID"
+			},
+			"role": "alter_ego",
+			"target_id": 87893457541440
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "LeftArm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.LeftArm",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 75924601718513
+		},
+		{
+			"asset_type": "texture",
+			"character": "Husk",
+			"label": "LeftArm TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.LeftArm",
+				"prop": "TextureID"
+			},
+			"role": "alter_ego",
+			"target_id": 87893457541440
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "LeftLeg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.LeftLeg",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 82299450290453
+		},
+		{
+			"asset_type": "texture",
+			"character": "Husk",
+			"label": "LeftLeg TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.LeftLeg",
+				"prop": "TextureID"
+			},
+			"role": "alter_ego",
+			"target_id": 87893457541440
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "RightArm Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.RightArm",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 129613980148168
+		},
+		{
+			"asset_type": "texture",
+			"character": "Husk",
+			"label": "RightArm TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.RightArm",
+				"prop": "TextureID"
+			},
+			"role": "alter_ego",
+			"target_id": 87893457541440
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "RightLeg Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.RightLeg",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 138035637404168
+		},
+		{
+			"asset_type": "texture",
+			"character": "Husk",
+			"label": "RightLeg TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.RightLeg",
+				"prop": "TextureID"
+			},
+			"role": "alter_ego",
+			"target_id": 87893457541440
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Husk",
+			"label": "Torso Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.Torso",
+				"prop": "MeshId"
+			},
+			"role": "alter_ego",
+			"target_id": 112508223956771
+		},
+		{
+			"asset_type": "texture",
+			"character": "Husk",
+			"label": "Torso TextureID",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Husk.JohnDoe.Torso",
+				"prop": "TextureID"
+			},
+			"role": "alter_ego",
+			"target_id": 87893457541440
+		}
+	]
+}

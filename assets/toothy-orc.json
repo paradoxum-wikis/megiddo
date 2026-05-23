@@ -1,0 +1,505 @@
+{
+	"character": "Toothy",
+	"description": "Toothy Orc model from Workspace.Characters.Models dump.",
+	"model": "Orc",
+	"replacements_catalogue": [
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "Body Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.Body",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 125844587625637
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Body ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Body.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 76223646071161
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Body RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Body.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 83326150032464
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "Clothes Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.Clothes",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 103894721512375
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Clothes ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Clothes.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 78851290586183
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Clothes MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Clothes.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 139682389346718
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Clothes NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Clothes.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 108512043593065
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Clothes RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Clothes.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 112927279255091
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "Face Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.Face",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 132265145752184
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Face.Default",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 116573363277060
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Face.Faces.Critical",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 83402671903133
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Face ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Face.Faces.Hurt",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 75944197314386
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "Hat Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.Hat",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 86210143739101
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Hat ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Hat.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 78851290586183
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Hat MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Hat.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 139682389346718
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Hat NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Hat.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 108512043593065
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Hat RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Hat.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 112927279255091
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "Head Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.Head",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 130547337670205
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Head ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Head.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 76223646071161
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Head RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Head.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 83326150032464
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "IchorPotion Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Glass_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 71417677402355
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Glass_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 130762850404110
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Glass_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 78783878742055
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Glass_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 86372432962499
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Glass_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 84429754392125
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "IchorPotion Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Potion_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 105123860122975
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Potion_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 130762850404110
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Potion_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 78783878742055
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Potion_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 86372432962499
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor Potion_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 84429754392125
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "IchorPotion Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor_",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 116150345918733
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor_.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 130762850404110
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion MetalnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor_.SurfaceAppearance",
+				"prop": "MetalnessMap"
+			},
+			"role": "victim",
+			"slot": 3,
+			"target_id": 78783878742055
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor_.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 86372432962499
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "IchorPotion RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.IchorPotion.Ichor_.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 84429754392125
+		},
+		{
+			"asset_type": "mesh",
+			"character": "Toothy",
+			"label": "Staff Mesh",
+			"rbxm_props": {
+				"class_name": "MeshPart",
+				"instance_path": "Toothy.Orc.Staff.Staff",
+				"prop": "MeshId"
+			},
+			"role": "victim",
+			"target_id": 112332265433833
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Staff ColorMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Staff.Staff.SurfaceAppearance",
+				"prop": "ColorMap"
+			},
+			"role": "victim",
+			"slot": 0,
+			"target_id": 130705677814203
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Staff NormalMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Staff.Staff.SurfaceAppearance",
+				"prop": "NormalMap"
+			},
+			"role": "victim",
+			"slot": 1,
+			"target_id": 74607860960651
+		},
+		{
+			"asset_type": "texturepack",
+			"character": "Toothy",
+			"label": "Staff RoughnessMap",
+			"rbxm_props": {
+				"class_name": "SurfaceAppearance",
+				"instance_path": "Toothy.Orc.Staff.Staff.SurfaceAppearance",
+				"prop": "RoughnessMap"
+			},
+			"role": "victim",
+			"slot": 2,
+			"target_id": 74746493147799
+		}
+	]
+}
