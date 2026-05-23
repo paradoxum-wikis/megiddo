@@ -1,0 +1,11 @@
+{
+	"$schema": "https://wails.io/schemas/config.v2.json",
+	"version": "2",
+	"name": "Megiddo",
+	"description": "ALTER EGO skin swapper",
+	"frontend:install": "",
+	"frontend:build": "",
+	"assetdir": "frontend",
+	"wailsjsdir": "./frontend",
+	"devServer": "127.0.0.1:7767"
+}
