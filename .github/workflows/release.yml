@@ -29,7 +29,7 @@ jobs:
               shell: pwsh
               env:
                   CGO_ENABLED: "1"
-              run: wails build -webview2 embed -trimpath -ldflags "-s -w" -upx -clean -o megiddo.exe
+              run: wails build -webview2 embed -trimpath -ldflags "-s -w -X main.version=build-${{ github.run_number }}" -upx -clean -o megiddo.exe
 
             - uses: actions/upload-artifact@v4
               with:

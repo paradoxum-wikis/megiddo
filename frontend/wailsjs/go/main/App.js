@@ -6,6 +6,10 @@ export function ApplyPack(arg1) {
   return window['go']['main']['App']['ApplyPack'](arg1);
 }
 
+export function CheckUpdate() {
+  return window['go']['main']['App']['CheckUpdate']();
+}
+
 export function ClearPack() {
   return window['go']['main']['App']['ClearPack']();
 }

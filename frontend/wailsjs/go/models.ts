@@ -158,6 +158,20 @@ export namespace main {
 	        this.lastLifecycle = source["lastLifecycle"];
 	    }
 	}
+	export class UpdateInfo {
+	    tag: string;
+	    url: string;
+	
+	    static createFrom(source: any = {}) {
+	        return new UpdateInfo(source);
+	    }
+	
+	    constructor(source: any = {}) {
+	        if ('string' === typeof source) source = JSON.parse(source);
+	        this.tag = source["tag"];
+	        this.url = source["url"];
+	    }
+	}
 
 }
 

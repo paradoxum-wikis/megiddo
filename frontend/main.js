@@ -26,6 +26,7 @@ import {
 	refreshLiveStatus,
 } from "./notwailsjs/status.js";
 import {
+	CheckUpdate,
 	EnableMegiddo,
 	EnableMegiddoProfiles,
 	DisableMegiddo,
@@ -139,6 +140,15 @@ async function init() {
 	await refreshInstalledPacks();
 	await refreshLiveStatus();
 	await refreshCertPatchPill();
+
+	CheckUpdate().then((info) => {
+		if (!info) return;
+		const chip = document.getElementById("chipUpdate");
+		if (!chip) return;
+		chip.textContent = `update available - ${info.tag}`;
+		chip.href = info.url;
+		chip.removeAttribute("hidden");
+	}).catch(() => {});
 
 	setInterval(() => refreshLiveStatus().catch(() => {}), STATUS_POLL_MS);
 	setInterval(() => refreshCertPatchPill().catch(() => {}), CERT_POLL_MS);
