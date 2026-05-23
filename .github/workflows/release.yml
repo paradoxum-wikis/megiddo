@@ -10,6 +10,8 @@ jobs:
         runs-on: windows-latest
         steps:
             - uses: actions/checkout@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
 
             - uses: actions/setup-go@v6
               with:
@@ -27,18 +29,12 @@ jobs:
               shell: pwsh
               env:
                   CGO_ENABLED: "1"
-              run: wails build -webview2 embed -trimpath -ldflags "-s -w" -o megiddo
+              run: wails build -webview2 embed -trimpath -ldflags "-s -w" -upx -clean -o megiddo.exe
 
             - uses: actions/upload-artifact@v4
               with:
                   name: windows-binary
                   path: build/bin/megiddo.exe
-                  if-no-files-found: error
-
-            - uses: actions/upload-artifact@v4
-              with:
-                  name: readme
-                  path: README.md
                   if-no-files-found: error
 
     create-release:
@@ -50,16 +46,11 @@ jobs:
                   name: windows-binary
                   path: artifacts
 
-            - uses: actions/download-artifact@v4
-              with:
-                  name: readme
-                  path: artifacts
-
             - name: Package release
               run: |
                   mkdir -p release
                   cp artifacts/megiddo.exe release/
-                  cp artifacts/README.md release/
+                  cp README.md release/
                   cd release
                   zip -r ../megiddo-windows-amd64.zip .
 
