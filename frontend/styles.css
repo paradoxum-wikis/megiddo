@@ -280,6 +280,10 @@ button {
 	font-size: 0.75rem;
 	opacity: 0.75;
 	text-transform: lowercase;
+
+	.picker-character &:not(:first-child) {
+		margin-top: 0.25rem;
+	}
 }
 
 .preview-err {
@@ -317,13 +321,13 @@ button {
 	list-style: none;
 	display: grid;
 	gap: 0.35rem;
-}
 
-.installed-packs li {
-	display: grid;
-	grid-template-columns: auto 1fr auto auto;
-	gap: 0.5rem;
-	align-items: start;
+	li {
+		display: grid;
+		grid-template-columns: auto 1fr auto auto;
+		gap: 0.5rem;
+		align-items: start;
+	}
 }
 
 .pack-label {
@@ -337,10 +341,10 @@ button {
 	background: oklch(29% 0.16 24);
 	border-color: oklch(48% 0.18 24);
 	color: oklch(98% 0.01 270);
-}
 
-.danger:hover {
-	background: oklch(34% 0.17 24);
+	&:hover {
+		background: oklch(34% 0.17 24);
+	}
 }
 
 .ghost {
@@ -380,10 +384,6 @@ button {
 
 .browse-meta {
 	margin-bottom: 0.75rem;
-}
-
-.picker-character .picker-label:not(:first-child) {
-	margin-top: 0.25rem;
 }
 
 .browse-skin-row {
