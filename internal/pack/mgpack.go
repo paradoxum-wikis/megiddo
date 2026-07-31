@@ -4,12 +4,13 @@ import (
 	"archive/zip"
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
+	"io/fs"
 	"os"
 	"path/filepath"
 	"slices"
-	"sort"
 	"strings"
 )
 
@@ -132,18 +133,23 @@ func IsZipBytes(b []byte) bool {
 }
 
 func PeekProfileID(mgpackPath string) (string, *Pack, error) {
-	p, err := readManifestFromZip(mgpackPath)
+	zr, err := zip.OpenReader(mgpackPath)
 	if err != nil {
-		return "", nil, err
+		return "", nil, fmt.Errorf("open mgpack: %w", err)
 	}
-	if strings.TrimSpace(p.Name) == "" {
-		return "", nil, fmt.Errorf("mgpack manifest missing pack name")
-	}
-	return ProfileID(p.Name, p.Author), p, nil
+	defer zr.Close()
+	return peekProfileID(readManifestFromZipFiles(zr.File))
 }
 
 func PeekProfileIDFromBytes(raw []byte) (string, *Pack, error) {
-	p, err := readManifestFromZipBytes(raw)
+	zr, err := zip.NewReader(bytes.NewReader(raw), int64(len(raw)))
+	if err != nil {
+		return "", nil, fmt.Errorf("open mgpack bytes: %w", err)
+	}
+	return peekProfileID(readManifestFromZipFiles(zr.File))
+}
+
+func peekProfileID(p *Pack, err error) (string, *Pack, error) {
 	if err != nil {
 		return "", nil, err
 	}
@@ -154,112 +160,95 @@ func PeekProfileIDFromBytes(raw []byte) (string, *Pack, error) {
 }
 
 func InstallMgpackFromBytes(raw []byte, packsRoot string, replace bool) (*Pack, error) {
-	if !IsZipBytes(raw) {
-		return nil, fmt.Errorf("not a zip mgpack archive")
+	zr, err := zip.NewReader(bytes.NewReader(raw), int64(len(raw)))
+	if err != nil {
+		return nil, fmt.Errorf("not a zip mgpack archive: %w", err)
 	}
-	profileID, _, err := PeekProfileIDFromBytes(raw)
+	p, err := readManifestFromZipFiles(zr.File)
 	if err != nil {
 		return nil, err
 	}
-	f, err := os.CreateTemp("", "megiddo-*.mgpack")
-	if err != nil {
+	if strings.TrimSpace(p.Name) == "" {
+		return nil, fmt.Errorf("mgpack manifest missing pack name")
+	}
+	profileID := ProfileID(p.Name, p.Author)
+	dest := filepath.Join(packsRoot, profileID)
+
+	if err := prepareDest(dest, replace, profileID); err != nil {
 		return nil, err
 	}
-	path := f.Name()
-	defer os.Remove(path)
-	if _, err := f.Write(raw); err != nil {
-		f.Close()
-		return nil, err
-	}
-	if err := f.Close(); err != nil {
-		return nil, err
-	}
-	if _, err := InstallMgpack(path, packsRoot, profileID, replace); err != nil {
+	if err := extractMgpackFiles(zr.File, dest); err != nil {
 		return nil, err
 	}
 	return LoadInstalled(packsRoot, profileID)
 }
 
-func readManifestFromZip(mgpackPath string) (*Pack, error) {
-	zr, err := zip.OpenReader(mgpackPath)
-	if err != nil {
-		return nil, fmt.Errorf("open mgpack: %w", err)
+func prepareDest(dest string, replace bool, profileID string) error {
+	_, statErr := os.Stat(dest)
+	switch {
+	case statErr == nil:
+		if !replace {
+			return fmt.Errorf("pack profile %q already installed at %s", profileID, dest)
+		}
+		if err := os.RemoveAll(dest); err != nil {
+			return err
+		}
+	case errors.Is(statErr, fs.ErrNotExist):
+	default:
+		return statErr
 	}
-	defer zr.Close()
-	return readManifestFromZipFiles(zr.File)
-}
-
-func readManifestFromZipBytes(raw []byte) (*Pack, error) {
-	zr, err := zip.NewReader(bytes.NewReader(raw), int64(len(raw)))
-	if err != nil {
-		return nil, fmt.Errorf("open mgpack bytes: %w", err)
-	}
-	return readManifestFromZipFiles(zr.File)
+	return os.MkdirAll(dest, 0o755)
 }
 
 func readManifestFromZipFiles(files []*zip.File) (*Pack, error) {
-	var raw []byte
 	for _, f := range files {
-		if filepath.ToSlash(f.Name) != MgpackManifestName {
+		if f.Name != MgpackManifestName {
 			continue
 		}
 		rc, err := f.Open()
 		if err != nil {
 			return nil, err
 		}
-		raw, err = io.ReadAll(io.LimitReader(rc, maxPackDownloadBytes+1))
+		raw, err := io.ReadAll(io.LimitReader(rc, maxPackDownloadBytes+1))
 		rc.Close()
 		if err != nil {
 			return nil, err
 		}
-		break
+		if len(raw) == 0 {
+			return nil, fmt.Errorf("mgpack manifest %s is empty", MgpackManifestName)
+		}
+		if len(raw) > maxPackDownloadBytes {
+			return nil, fmt.Errorf("mgpack manifest exceeds byte limit (%d)", maxPackDownloadBytes)
+		}
+		return ParseJSON(raw)
 	}
-	if len(raw) == 0 {
-		return nil, fmt.Errorf("mgpack missing %s", MgpackManifestName)
-	}
-	if len(raw) > maxPackDownloadBytes {
-		return nil, fmt.Errorf("mgpack manifest exceeds byte limit (%d)", maxPackDownloadBytes)
-	}
-	return ParseJSON(raw)
+	return nil, fmt.Errorf("mgpack missing %s", MgpackManifestName)
 }
 
-func InstallMgpack(mgpackPath, packsRoot string, profileID string, replace bool) (string, error) {
+func InstallMgpack(mgpackPath, packsRoot, profileID string, replace bool) (string, error) {
 	dest := filepath.Join(packsRoot, profileID)
-	if st, err := os.Stat(dest); err == nil && st.IsDir() {
-		if !replace {
-			return dest, fmt.Errorf("pack profile %q already installed at %s", profileID, dest)
-		}
-		if err := os.RemoveAll(dest); err != nil {
-			return dest, err
-		}
-	} else if err != nil && !os.IsNotExist(err) {
+	if err := prepareDest(dest, replace, profileID); err != nil {
 		return dest, err
 	}
-	if err := os.MkdirAll(packsRoot, 0o755); err != nil {
+	zr, err := zip.OpenReader(mgpackPath)
+	if err != nil {
 		return dest, err
 	}
-	if err := extractMgpack(mgpackPath, dest); err != nil {
+	defer zr.Close()
+	if err := extractMgpackFiles(zr.File, dest); err != nil {
 		return dest, err
 	}
 	return dest, nil
 }
 
-func extractMgpack(mgpackPath, destDir string) error {
-	zr, err := zip.OpenReader(mgpackPath)
-	if err != nil {
-		return err
-	}
-	defer zr.Close()
-	if err := os.MkdirAll(destDir, 0o755); err != nil {
-		return err
-	}
-	for _, f := range zr.File {
-		name := filepath.ToSlash(f.Name)
-		if strings.Contains(name, "..") || strings.Contains(name, "/") {
+func extractMgpackFiles(files []*zip.File, destDir string) error {
+	for _, f := range files {
+		name := f.Name
+		if !filepath.IsLocal(name) {
 			continue
 		}
 		target := filepath.Join(destDir, filepath.FromSlash(name))
-		if f.FileInfo().IsDir() || strings.HasSuffix(name, "/") {
+		if f.FileInfo().IsDir() {
 			if err := os.MkdirAll(target, 0o755); err != nil {
 				return err
 			}
@@ -277,52 +266,46 @@ func extractMgpack(mgpackPath, destDir string) error {
 			rc.Close()
 			return err
 		}
-		_, err = io.Copy(out, rc)
+		_, copyErr := io.Copy(out, rc)
 		rc.Close()
 		out.Close()
-		if err != nil {
-			return err
+		if copyErr != nil {
+			return copyErr
 		}
 	}
 	return nil
 }
 
 func LoadInstalled(packsRoot, profileID string) (*Pack, error) {
-	manifest := filepath.Join(packsRoot, profileID, MgpackManifestName)
-	return LoadFile(manifest)
+	return LoadFile(filepath.Join(packsRoot, profileID, MgpackManifestName))
 }
 
 func WriteInstalledManifest(profileDir string, p *Pack) error {
-	if p == nil {
-		return fmt.Errorf("nil pack")
-	}
 	profileDir = filepath.Clean(profileDir)
 	manifest := *p
-	manifest.Replacements = make([]Replacement, len(p.Replacements))
-	copy(manifest.Replacements, p.Replacements)
+	manifest.Replacements = slices.Clone(p.Replacements)
 	for i, r := range manifest.Replacements {
 		fp := strings.TrimSpace(r.ReplaceWithFile)
 		if fp == "" {
 			continue
 		}
-		clean := filepath.Clean(fp)
-		rel, err := filepath.Rel(profileDir, clean)
-		if err == nil && rel != ".." && !strings.HasPrefix(rel, ".."+string(filepath.Separator)) {
-			manifest.Replacements[i].ReplaceWithFile = filepath.ToSlash(rel)
+		rel, err := filepath.Rel(profileDir, filepath.Clean(fp))
+		if err != nil || !filepath.IsLocal(rel) {
+			continue
 		}
+		manifest.Replacements[i].ReplaceWithFile = filepath.ToSlash(rel)
 	}
 	data, err := json.MarshalIndent(&manifest, "", "\t")
 	if err != nil {
 		return err
 	}
-	path := filepath.Join(profileDir, MgpackManifestName)
-	return os.WriteFile(path, data, 0o644)
+	return os.WriteFile(filepath.Join(profileDir, MgpackManifestName), data, 0o644)
 }
 
 func ListInstalled(packsRoot string) ([]InstalledSummary, error) {
 	entries, err := os.ReadDir(packsRoot)
 	if err != nil {
-		if os.IsNotExist(err) {
+		if errors.Is(err, fs.ErrNotExist) {
 			return nil, nil
 		}
 		return nil, err
@@ -332,8 +315,7 @@ func ListInstalled(packsRoot string) ([]InstalledSummary, error) {
 		if !ent.IsDir() {
 			continue
 		}
-		manifest := filepath.Join(packsRoot, ent.Name(), MgpackManifestName)
-		data, err := os.ReadFile(manifest)
+		data, err := os.ReadFile(filepath.Join(packsRoot, ent.Name(), MgpackManifestName))
 		if err != nil {
 			continue
 		}
@@ -348,6 +330,8 @@ func ListInstalled(packsRoot string) ([]InstalledSummary, error) {
 			Version:   p.Version,
 		})
 	}
-	sort.Slice(out, func(i, j int) bool { return out[i].ProfileID < out[j].ProfileID })
+	slices.SortFunc(out, func(a, b InstalledSummary) int {
+		return strings.Compare(a.ProfileID, b.ProfileID)
+	})
 	return out, nil
 }
