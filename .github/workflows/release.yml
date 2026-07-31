@@ -9,56 +9,40 @@ jobs:
     build-windows:
         runs-on: windows-latest
         steps:
-            - uses: actions/checkout@v6
-              with:
-                  token: ${{ secrets.GITHUB_TOKEN }}
-
-            - uses: actions/setup-go@v6
+            - uses: actions/checkout@v7
+            - uses: actions/setup-go@v7
               with:
                   go-version-file: go.mod
-                  cache-dependency-path: go.sum
 
             - name: Run tests
               shell: pwsh
               run: go test ./... -v
 
             - name: Install Wails CLI
-              run: go install github.com/wailsapp/wails/v2/cmd/wails@v2.12.0
-
-            - name: Add Go bin to PATH
               shell: pwsh
-              run: echo "$(go env GOPATH)/bin" | Out-File -FilePath $env:GITHUB_PATH -Append
+              run: |
+                  go install github.com/wailsapp/wails/v2/cmd/wails@v2.13.0
+                  echo "$(go env GOPATH)/bin" | Out-File -FilePath $env:GITHUB_PATH -Append
 
             - name: Build
               shell: pwsh
-              env:
-                  CGO_ENABLED: "1"
-              run: wails build -webview2 embed -trimpath -ldflags "-s -w -X main.version=build-${{ github.run_number }}" -upx -clean -o megiddo.exe
+              run: wails build -webview2 embed -trimpath -ldflags "-X main.version=build-${{ github.run_number }}" -upx -clean -o megiddo.exe
 
-            - uses: actions/upload-artifact@v4
+            - uses: actions/upload-artifact@v7
               with:
-                  name: windows-binary
-                  path: build/bin/megiddo.exe
-                  if-no-files-found: error
-
-            - uses: actions/upload-artifact@v4
-              with:
-                  name: readme
-                  path: README.md
+                  name: release-files
+                  path: |
+                      build/bin/megiddo.exe
+                      README.md
                   if-no-files-found: error
 
     create-release:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-slim
         needs: build-windows
         steps:
-            - uses: actions/download-artifact@v4
+            - uses: actions/download-artifact@v8
               with:
-                  name: windows-binary
-                  path: artifacts
-
-            - uses: actions/download-artifact@v4
-              with:
-                  name: readme
+                  name: release-zefiles
                   path: artifacts
 
             - name: Package release
@@ -69,7 +53,7 @@ jobs:
                   cd release
                   zip -r ../megiddo-windows-amd64.zip .
 
-            - uses: softprops/action-gh-release@v2
+            - uses: softprops/action-gh-release@v3
               with:
                   tag_name: build-${{ github.run_number }}
                   name: build-${{ github.run_number }}
