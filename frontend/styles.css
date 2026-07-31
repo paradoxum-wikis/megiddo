@@ -160,10 +160,8 @@ h2 {
 .home-grid {
 	grid-template-columns: repeat(3, 1fr);
 	align-items: stretch;
-}
 
-@media (max-width: 768px) {
-	.home-grid {
+	@media (max-width: 768px) {
 		grid-template-columns: 1fr;
 	}
 }

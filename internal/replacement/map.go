@@ -56,7 +56,8 @@ func (m *Map) Lookup(assetID int64, slotDecoded *int) (Entry, bool) {
 		if e, ok := m.entries[Key{AssetID: assetID, SlotIndex: slot}]; ok {
 			return e, true
 		}
-		// roblox encode fidelity as slot+32; normalize so pack slot keys still match
+		// roblox encode fidelity as slot+32
+		// normalize so pack slot keys still match
 		if slot >= 32 {
 			if e, ok := m.entries[Key{AssetID: assetID, SlotIndex: slot - 32}]; ok {
 				return e, true

@@ -12,8 +12,6 @@ const ProxyOwnerPIDFileName = "megiddo_proxy_owner.pid"
 const WatchdogTaskName = "Megiddo-HostsWatchdog"
 
 const PendingRenameTempFile = "megiddo_hosts_restore.txt"
-
-// must not collide with real roblox cdn routes
 const LocalServePathPrefix = "/megiddo-local/v1/"
 
 const FtsHost = "fts.rbxcdn.com"

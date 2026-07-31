@@ -240,7 +240,9 @@ func headRobloxDelivery(ctx context.Context, id int64) error {
 		defer resp.Body.Close()
 		_, _ = io.CopyN(io.Discard, resp.Body, 1024)
 		if resp.StatusCode == http.StatusUnauthorized || resp.StatusCode == http.StatusForbidden {
-			return nil // head probe lacks in-game auth; client fetch maaaaay still work
+			// head probe lacks in-game auth
+			// client fetch maaaaay still work
+			return nil
 		}
 		if resp.StatusCode >= 300 && resp.StatusCode < 400 {
 			return nil // redirect to CDN means assetdelivery recognized the id

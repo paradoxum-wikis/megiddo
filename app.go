@@ -473,7 +473,6 @@ func (a *App) ApplyPack(p skpack.Pack) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
 	defer cancel()
 	if err := (&p).ValidateReplaceDelivery(ctx); err != nil {
-		// advisory HEAD only; in-game fetch may still work with roblox auth headers
 		a.writeLog("pack: id reachability warning (continuing apply): %v", err)
 	} else {
 		a.writeLog("pack: apply id reachability validation ok")

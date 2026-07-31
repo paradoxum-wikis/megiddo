@@ -111,7 +111,7 @@ func buildDNSQuery(hostname string) ([]byte, error) {
 	hdr := []byte{
 		byte((txid >> 8) & 0xff),
 		byte(txid & 0xff),
-		0x01, 0x00, // flags - standard query + recursion desired
+		0x01, 0x00, // flags such as standard query + recursion desired
 		0x00, 0x01, // one question
 		0x00, 0x00, // answer RRs
 		0x00, 0x00,
