@@ -1,6 +1,6 @@
 # Megiddo
 
-**Megiddo** is a skin swapper for ALTER EGO.
+**Megiddo** is a skin swapper for Roblox [ALTER EGO](https://www.roblox.com/games/78515341506665).
 
 FYI, no, it isn't bannable, since it doesn't modify the Roblox binary, hence, it wouldn't be detected.
 
