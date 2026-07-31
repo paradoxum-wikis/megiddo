@@ -109,17 +109,22 @@ func uniqueAssetArcName(label, srcPath string, used map[string]int) string {
 	if base == "" {
 		base = "asset"
 	}
-	name := base + ext
-	if strings.EqualFold(name, MgpackManifestName) {
-		name = base + "_file" + ext
+	for i := 0; ; i++ {
+		var cand string
+		if i == 0 {
+			cand = base + ext
+		} else {
+			cand = fmt.Sprintf("%s_%d%s", base, i, ext)
+		}
+		if strings.EqualFold(cand, MgpackManifestName) {
+			continue
+		}
+		if _, ok := used[cand]; ok {
+			continue
+		}
+		used[cand] = 1
+		return cand
 	}
-	if n, ok := used[name]; ok {
-		used[name] = n + 1
-		name = fmt.Sprintf("%s_%d%s", base, n+1, ext)
-	} else {
-		used[name] = 1
-	}
-	return name
 }
 
 func IsZipBytes(b []byte) bool {
