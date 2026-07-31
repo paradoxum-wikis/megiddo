@@ -23,14 +23,13 @@ type InstalledSummary struct {
 
 func ProfileID(name, author string) string {
 	n := slugProfilePart(name)
-	a := slugProfilePart(author)
 	if n == "" {
 		n = "pack"
 	}
-	if a == "" {
-		return n
+	if a := slugProfilePart(author); a != "" {
+		return n + "_" + a
 	}
-	return n + "_" + a
+	return n
 }
 
 func slugProfilePart(s string) string {
@@ -39,6 +38,7 @@ func slugProfilePart(s string) string {
 		return ""
 	}
 	var b strings.Builder
+	b.Grow(len(s))
 	prevDash := false
 	for _, r := range s {
 		switch {
@@ -52,8 +52,7 @@ func slugProfilePart(s string) string {
 			}
 		}
 	}
-	out := strings.Trim(b.String(), "_")
-	return out
+	return strings.Trim(b.String(), "_")
 }
 
 func WriteMgpack(w io.Writer, p *Pack) error {
