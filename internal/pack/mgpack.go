@@ -8,6 +8,7 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"slices"
 	"sort"
 	"strings"
 )
@@ -55,22 +56,24 @@ func slugProfilePart(s string) string {
 	return strings.Trim(b.String(), "_")
 }
 
-func WriteMgpack(w io.Writer, p *Pack) error {
+func WriteMgpack(w io.Writer, p *Pack) (err error) {
 	if p == nil {
 		return fmt.Errorf("nil pack")
 	}
 	zw := zip.NewWriter(w)
-	defer zw.Close()
+	defer func() {
+		if cerr := zw.Close(); err == nil {
+			err = cerr
+		}
+	}()
 
 	manifest := *p
-	manifest.Replacements = make([]Replacement, len(p.Replacements))
-	copy(manifest.Replacements, p.Replacements)
+	manifest.Replacements = slices.Clone(p.Replacements)
 
-	used := map[string]int{}
-	for i, r := range p.Replacements {
+	used := make(map[string]int, len(p.Replacements))
+	for i, r := range manifest.Replacements {
 		fp := strings.TrimSpace(r.ReplaceWithFile)
 		if fp == "" {
-			manifest.Replacements[i] = r
 			continue
 		}
 		data, err := os.ReadFile(fp)
@@ -85,9 +88,7 @@ func WriteMgpack(w io.Writer, p *Pack) error {
 		if _, err := fh.Write(data); err != nil {
 			return err
 		}
-		nr := r
-		nr.ReplaceWithFile = arc
-		manifest.Replacements[i] = nr
+		manifest.Replacements[i].ReplaceWithFile = arc
 	}
 
 	mb, err := json.MarshalIndent(&manifest, "", "\t")
@@ -98,10 +99,8 @@ func WriteMgpack(w io.Writer, p *Pack) error {
 	if err != nil {
 		return err
 	}
-	if _, err := mw.Write(mb); err != nil {
-		return err
-	}
-	return zw.Close()
+	_, err = mw.Write(mb)
+	return err
 }
 
 func uniqueAssetArcName(label, srcPath string, used map[string]int) string {
