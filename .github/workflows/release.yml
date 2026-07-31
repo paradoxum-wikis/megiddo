@@ -30,7 +30,7 @@ jobs:
 
             - uses: actions/upload-artifact@v7
               with:
-                  name: release-files
+                  name: release-zefiles
                   path: |
                       build/bin/megiddo.exe
                       README.md
@@ -48,7 +48,7 @@ jobs:
             - name: Package release
               run: |
                   mkdir -p release
-                  cp artifacts/megiddo.exe release/
+                  cp artifacts/build/bin/megiddo.exe release/
                   cp artifacts/README.md release/
                   cd release
                   zip -r ../megiddo-windows-amd64.zip .
